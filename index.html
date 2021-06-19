@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test page</title>
+    <link rel="preload" as="image" imagesrcset="Nikita-400x400.jpg" media="(max-width: 450px)">
+    <link rel="preload" as="image" imagesrcset="Nikita-1900x1188.jpg" media="(min-width: 451px)">
+</head>
+<body>
+<picture class="picture">
+    <source media="(max-width: 450px)" srcset="Nikita-400x400.jpg">
+    <img width="1900" height="1188" src="Nikita-1900x1188.jpg" alt="Nikita-" loading="eager">
+</picture>
+</body>
+</html>
